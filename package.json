@@ -1,0 +1,18 @@
+{
+  "name": "node-testing",
+  "version": "1.0.0",
+  "description": "introduction to testing in node.js",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha **/*.test.js" 
+  },
+  "author": "TeamK",
+  "license": "ISC"
+}
